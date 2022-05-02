@@ -6,6 +6,9 @@ class Spiderverse{
         this.numb_movies=numb_movies,
         this.cinema_study=cinema_study
     }
+    getinfo(){
+        return `Hey, I'm ${this.actor} from ${this.cinema_study} studio`
+    }
 }
 
 module.exports= Spiderverse

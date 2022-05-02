@@ -14,4 +14,9 @@ describe("Unit Test for Spiderman class", () => {
       expect(andrewGarfield.numb_movies).toBe(2)
       expect(andrewGarfield.cinema_study).toBe("Sony")
     });
+    test('2) Create an spiderman tom object',()=>{
+        const tomHolland = new Spiderverse("Spiderman Marvel",25, "Tom Holland",6,"Marvel")
+
+        expect(tomHolland.getinfo()).toBe("Hey, I'm Tom Holland from Marvel studio")
+    });
   })
